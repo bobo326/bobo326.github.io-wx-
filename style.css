@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#frame {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	background-image: url("wx_background.jpg");
+	background-size: 100% 100%;
+}
+
+#icon {
+	position: absolute;
+	width: 40px;
+	height:35px;
+	left: 60px;
+	top: 60px;
+	background-image: url("icon.png");
+	background-size: 100% 100%;
+}
+
+#description {
+	position: absolute;
+	left: 110px;
+	top: 65px;
+	color: #FAFAFA;
+}
+
+#login {
+	top: 50%;
+	margin-top: -270px;
+	left: 50%;
+	margin-left: -190px;
+	/*margin: 10% auto;*/
+	position: absolute;
+	width: 350px;
+	height: 560px;
+	border: 0.1px none;
+	background-color: white;
+	background-image: url("wx_earth.png");
+	background-size: 100% 110%;
+}
+
+#login_in {
+	width: 300px;
+	height: 320px;
+	margin-top: 50px;
+	margin-left: 40px;
+	border: 2px inherit;
+	border-radius: 20px;
+	/*background-color: #C0C0C0;*/
+}
+
+#form {
+	margin-left: 35px;
+	margin-top: 20px;
+}
+
+.span1,.span2 {
+	font-size: 15px;
+	color: #6C6C6C;
+}
+
+.input {
+	width: 200px;
+	height: 30px;
+	margin-top: 8px;
+	border: 2px outset #ADADAD;
+	border-radius: 8px;
+	font-size: 10px;
+}
+
+#dialect {
+	width: 330px;
+	height: 25px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 60px;
+	bottom: 60px;
+	line-height: 1.6;
+
+}
+
+.li {
+	list-style: none;
+	float: left;
+	color: #d3d3d3;
+	font-size: 12px;
+}
+
+#copyright {
+	position: absolute;
+	right: 60px;
+	bottom: 60px;
+	line-height: 1.6;
+	color: #d3d3d3;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #d3d3d3;
+}
+
+.fanti, .jianti, .english {
+	cursor:pointer; 
+}
